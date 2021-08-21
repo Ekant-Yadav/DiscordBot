@@ -1,0 +1,1 @@
+Discord bot to detect and delete bad language and stop cyberbullying using ml-algorithms.
