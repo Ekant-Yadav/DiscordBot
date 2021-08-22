@@ -45,7 +45,7 @@ async def on_message(message):
   global punishment
 
 
-  if model.predict(message):
+  if model.predict(message.content)=="__label__0":
     author = str(message.author)
     await message.delete()
     await message.channel.send("Be nice "+message.author.mention)
@@ -102,7 +102,7 @@ async def toggle(ctx, newMaxWarnings=5, newPunishment="kick"):
   maxWarnings = newMaxWarnings
   punishment = newPunishment
 
-  await ctx.channel.send(ctx.author.mention+", Your changes were made.")
+  await ctx.channel.send(ctx.author.mention+", You've changed my mind.")
 
 
 
