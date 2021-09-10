@@ -3,7 +3,7 @@
 A discord bot that uses natural language processing to see if messages are derogatory.
 The bot doesn't delete messages with particular words, but rather looks at the context of the message.
 
-# --Impostant-- #
+# --Important-- #
 
 To access trained model_file click [here](https://drive.google.com/file/d/1yAZrf5iI2-7VVam7Es0g30vVh2OD8NP1/view?usp=sharing).
 
